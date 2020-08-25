@@ -1,7 +1,7 @@
 The repository contains source files forbuilding a Node.js web-app docker as per the assignment.
 The application runs an httpd daemon at port 9090 and implement the specified REST API functions:
 GET /ad  ---> List all the scheduled auction events
-POST /ad-event  ---> Submit a new auctuon event
+POST /ad-event  ---> Submit a new auction event
 
 In addition, GET / is to present an input form for an user to fill in and submit a new auction event.
 
