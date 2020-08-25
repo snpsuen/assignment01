@@ -16,4 +16,4 @@ sudo docker build -t snpsuen/assign01:node-app01 .
 sudo docker run --name assign01-node-app01 -p 19090:9090 -d snpsuen/assign01:node-app01
 Check http://localhost:19090, http://localhost:19090/ad-event, http://localhost:19090/ad and console logs within the container
 
-The docker image is also available to be pulled from the docker hub, https://hub.docker.com/repository/docker/snpsuen/assign01/general
+The docker image is also available to be pulled from the docker hub, https://hub.docker.com/repository/docker/snpsuen/assign01
